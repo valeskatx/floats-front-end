@@ -11,10 +11,13 @@
 }
 
 
-.main-content {}
+.main-content {
+	overflow: hidden;
+}
 /* hint! what do you need to add here? */
 
 .widget {
+	float: left;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
