@@ -10,22 +10,44 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+	overflow: hidden;
+}
 /* hint! what do you have to add here? */
 
-.logo {}
+.logo {
+	float: left;
+}
 
-.navigation {}
+.navigation {
+	float: right;
+}
 
-.sidebar {}
+.sidebar {
+	float: left;
+	width: 250px;
+	height: 300px;
+}
 
-.main-content {}
+.main-content {
+	overflow: hidden;
+
+
+}
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
+	float: right;
+	width: 650px;	
+	height: 140px;
+	margin-bottom: 20px;
+
 	/* hint! */
 }
 .sub-content-2 {
+	float: right;
+	width: 650px;	
+	height: 140px;
 	/* hint! */
 }
 
