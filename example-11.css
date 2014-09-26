@@ -5,12 +5,34 @@
 
 /* Example 11 */
 
-.header {}
+.header {
+	overflow: hidden;
 
-.main-content {}
+}
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
+
+.main-content {
+	overflow: hidden;
+}
+.image {
+	float: left;
+	width: 20%;
+	height: 200px;
+}
+.post_excerpt {
+	float: right;
+	width: 65%;
+}
 /* hint! */
 
-.post {}
+.post {
+	overflow: hidden;
+}
 /* hint! */
 
 .image {}
