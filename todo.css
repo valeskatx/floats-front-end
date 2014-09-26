@@ -37,7 +37,7 @@
 	text-transform: none;
 	line-height: 1.5em;
 	font-weight: normal;
-	font-family: "PlutoSansExtraLight";
+	/*font-family: "PlutoSansExtraLight";*/
 }
 
 /* Date */
@@ -46,7 +46,7 @@
 	font-weight: normal;
 	font-size: 14px;
 	text-transform: none;
-	font-family: "PlutoSansRegular";
+	/*font-family: "PlutoSansRegular";*/
 }
 
 	/* Note about the date, e.g. "that's today!" or "overdue" */

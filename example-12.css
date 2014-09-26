@@ -4,25 +4,51 @@
 /* ---------------------------------------------------------- */
 
 /* Example 12 */
+* {
+	box-sizing:border-box;
+}
 
 /* To Do List */
+.container {
+	width: 500px;
+	margin:0 auto;
+	border: 1px gray;
+	background-color: white;
+	padding: 20px;
+
+}
+body {
+	background-color: black;
+}
 .todolist {}
 
 /* Individual Todo */
-.todo {}
+.todo {
+	border-bottom: 1px gray solid;
+	overflow: hidden;
+	padding: 20px;
+}
 
 
 /* Priority icon dot */
-.icon {}
+.icon {
+	float: left;
+}
 
 /* Info of the todo, title and date */
-.todo-info {}
+.todo-info {
+	padding: 10px;
+}
 
 /* Title */
-.todo-title {}
+.todo-title {
+
+}
 
 /* Date */
 .todo-date {}
 
 /* Checkboxes! */
-input[type=checkbox] {}
+input[type=checkbox] {
+	float: right;
+}
