@@ -6,13 +6,28 @@
 /* Example 10 */
 
 .header {}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sidebar {
+	float: left;
+	width: 30%;
+	height: 400px;
+}
 
-.sidebar {}
+.main-content {
+	float: left;
+	width: 70%;
+	height: 400px;
 
-.main-content {}
+}
 
 .sub-content {}
 
-.footer {}
+.footer {
+	clear: both;
+}
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
